@@ -103,6 +103,10 @@ a {
 .row {
 	display: flex;
 }
+hr {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
 
 /*
  * *********** NAVBAR ***********
@@ -278,6 +282,9 @@ a {
 	 justify-content: center;
 	 text-align: center;
  }
+ /*
+ * *********** SPELLS PAGE ***********
+ */
  .spell-wrap {
 	border: 1px solid $primary;
 	border-radius: 5px;
