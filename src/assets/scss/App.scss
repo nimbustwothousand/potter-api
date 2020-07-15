@@ -152,12 +152,14 @@ hr {
 	.hamburger-container {
 			cursor: pointer;
 			display: none;
+			margin-left: auto;
 
 		#close-hamburger-menu {
 			float: right;
 			padding: 10px 15px;;
 			font-size: 2rem;
 			cursor: pointer;
+			z-index: 999;
 		}
 		#hamburger-container {
 			cursor: pointer;
@@ -224,6 +226,12 @@ hr {
 	 }
 	 h2 {
 		 font-size: 6rem;
+		 @media (max-width: $bp-md) {
+			 font-size: 4rem;
+		 }
+		 @media (max-width: $bp-sm) {
+			 font-size: 3rem;
+		 }
 
 		 &.Slytherin {
 			background-color: $slyth-main;
