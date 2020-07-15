@@ -1,2 +1,10 @@
 ## The Potter Codex
-This project utilises React.js, as well as react-router-dom, for page-rendering and routing. It uses axios to make API calls to the [Potter API](https://www.potterapi.com/), and I used npm and Node with Visual Studio Code in my dev environment. I also used SASS to create the stylesheet, utilising the Live Sass Compiler plugin to have it automatically compiled to CSS.
+A fun little website that provides information about all characters and spells in the Harry Potter universe. Also sorts you into a house. :)
+
+Uses the [Potter API](https://www.potterapi.com/).
+
+### Technologies
+* React.js & create-react-app
+* react-router-dom
+* axios
+* SASS
